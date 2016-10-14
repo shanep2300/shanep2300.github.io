@@ -2897,8 +2897,17 @@
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+	
+/* When & Where */
 
-/* Work */
+#where {
+	background: url("images/overlay.png"), url("../../images/intro.jpg");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+/* Pictures */
 
 	#work .row.images .image {
 		-moz-transition: all 1s ease;
