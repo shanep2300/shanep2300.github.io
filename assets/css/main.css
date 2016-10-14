@@ -2897,15 +2897,6 @@
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
-	
-/* When & Where */
-
-#where {
-	background: url("images/overlay.png"), url("../../images/intro.jpg");
-	background-size: 256px 256px, cover;
-	background-attachment: fixed, fixed;
-	background-position: top left, center center;
-}
 
 /* Pictures */
 
@@ -2944,7 +2935,7 @@
 			top: 7em;
 		}
 
-/* Contact */
+/* When & Where */
 
 	#contact {
 		padding-bottom: 0;
