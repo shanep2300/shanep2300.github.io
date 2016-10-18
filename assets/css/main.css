@@ -1805,7 +1805,7 @@
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 		font-size: 18pt;
-		line-height: 1.75em;
+		line-height: 1.25em;
 		color: #39454b;
 		letter-spacing: 0.5px;
 	}
@@ -1825,7 +1825,7 @@
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 		font-size: 18pt;
-		line-height: 1.75em;
+		line-height: 1.25em;
 		color: #39454b;
 		letter-spacing: 0.5px;
 	}
@@ -2869,6 +2869,10 @@
 					padding: 0 0.5em 0 0.5em;
 					outline: 0;
 				}
+
+					#nav ul li a:hover {
+						background-color: #f2f2f2;
+					}
 
 /* Intro */
 
