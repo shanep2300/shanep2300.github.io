@@ -3391,6 +3391,10 @@
 				padding: 3em 10px 3em 10px;
 			}
 
+				.main.style3 .button.anchored {
+					display: none;
+				}
+
 		/* Header */
 
 			#header {
@@ -3423,7 +3427,7 @@
 				line-height: 2.5em;
 			}
 
-				#nav ul li:not(:first-child) {
+				#nav ul li:not(:nth-child(4)) {
 					display: none;
 				}
 
@@ -3434,31 +3438,6 @@
 						padding: 0 0.5em 0 0.5em;
 						outline: 0;
 					}
-
-						#nav ul li.hamburger {
-							display: inline-block;
-							cursor: pointer;
-						}
-
-							#nav.responsive {
-								position: absolute;
-							}
-
-			  				#nav.responsive ul li.hamburger {
-							    position: absolute;
-							    right: 0;
-							    top: 0;
-							  }
-
-								  #nav.responsive ul li {
-								    float: none;
-								    display: inline;
-								  }
-
-									  #nav.responsive ul li a {
-									    display: block;
-									    text-align: left;
-									  }
 
 		/* Footer */
 
