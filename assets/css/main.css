@@ -2874,6 +2874,10 @@
 						background-color: #f2f2f2;
 					}
 
+						#nav ul li.hamburger {
+							display: none;
+						}
+
 /* Intro */
 
 	#intro {
@@ -3319,16 +3323,16 @@
 			body {
 				min-width: 320px;
 				font-size: 12pt;
-				line-height: 1.5em;
+				line-height: 1.25em;
 			}
 
 			input, textarea, select {
 				font-size: 12pt;
-				line-height: 1.5em;
+				line-height: 1.25em;
 			}
 
 			h2 {
-				font-size: 1.5em;
+				font-size: 1.25em;
 				letter-spacing: -1px;
 			}
 
@@ -3399,9 +3403,9 @@
 			}
 
 			#logo {
-				text-align: center;
+				text-align: left;
 				position: relative;
-				left: 0;
+				left: 1em;
 				top: 0;
 				height: 2.5em;
 				line-height: 2.5em;
@@ -3412,8 +3416,49 @@
 				}
 
 			#nav {
-				display: none;
+				position: absolute;
+				right: 1em;
+				top: 0;
+				height: 2.5em;
+				line-height: 2.5em;
 			}
+
+				#nav ul li:not(:first-child) {
+					display: none;
+				}
+
+					#nav ul li a {
+						text-decoration: : none;
+						height: 2.5em;
+						line-height: 2.5em;
+						padding: 0 0.5em 0 0.5em;
+						outline: 0;
+					}
+
+						#nav ul li.hamburger {
+							display: inline-block;
+							cursor: pointer;
+						}
+
+							#nav.responsive {
+								position: absolute;
+							}
+
+			  				#nav.responsive ul li.hamburger {
+							    position: absolute;
+							    right: 0;
+							    top: 0;
+							  }
+
+								  #nav.responsive ul li {
+								    float: none;
+								    display: inline;
+								  }
+
+									  #nav.responsive ul li a {
+									    display: block;
+									    text-align: left;
+									  }
 
 		/* Footer */
 
