@@ -1795,6 +1795,16 @@
 		width: device-width;
 	}
 
+	@font-face {
+    font-family: ChopinScript;
+    	src: url("../fonts/ChopinScript.otf");
+	}
+
+	@font-face {
+		font-family: ChapazaI;
+			src: url("../fonts/ChapazaItalic.ttf");
+	}
+
 	html {
 		height: 100%;
 	}
@@ -1802,7 +1812,7 @@
 	body {
 		background: #fff;
 		height: 100%;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: ChapazaI;
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.25em;
@@ -1831,7 +1841,8 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 900;
+		font-family: ChopinScript;
+		font-weight: 500;
 		color: inherit;
 	}
 
@@ -1841,13 +1852,15 @@
 	}
 
 	h2 {
-		font-size: 2.25em;
-		letter-spacing: -2px;
-		line-height: 1.25em;
+		font-size: 3.25em;
+	}
+
+	h3{
+		font-size: 1.5em;
 	}
 
 	strong, b {
-		font-weight: 900;
+		font-weight: 300;
 		color: inherit;
 	}
 
@@ -2251,7 +2264,7 @@
 /* Box */
 
 	.box {
-		background-color: rgba(999, 999, 999, .5);
+		background-color: rgba(999, 999, 999, .8);
 		color: #39454b;
 		padding: 2em;
 	}
@@ -2881,7 +2894,7 @@
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		background: url("images/overlay.png"), url("../../images/intro.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -3344,7 +3357,7 @@
 
 				.box.style2 {
 					padding: 1.5em 1.25em 1.5em 1.25em;
-					background-color: rgba(255, 255, 255, 0.5);
+					background-color: rgba(255, 255, 255, 0.8);
 				}
 
 		/* Main */
