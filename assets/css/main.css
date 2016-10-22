@@ -2852,7 +2852,7 @@
 	}
 
 		#logo a {
-			font-size: 1.25em;
+			font-size: 2em;
 		}
 
 	#nav {
@@ -2894,7 +2894,7 @@
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.png");
+		background: url("images/overlay.png"), url("../../images/intro.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -3345,8 +3345,12 @@
 			}
 
 			h2 {
-				font-size: 1.25em;
+				font-size: 2em;
 				letter-spacing: -1px;
+			}
+
+			h3 {
+				font-size: 1.25em;
 			}
 
 		/* Box */
@@ -3429,7 +3433,7 @@
 			}
 
 				#logo a {
-					font-size: 1em;
+					font-size: 1.5em;
 				}
 
 			#nav {
@@ -3440,7 +3444,7 @@
 				line-height: 2.5em;
 			}
 
-				#nav ul li:not(:nth-child(4)) {
+				#nav ul li:not(:nth-child(n+3)) {
 					display: none;
 				}
 
