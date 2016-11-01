@@ -2875,7 +2875,7 @@
 			margin: 0;
 		}
 
-			#nav ul li {
+			#nav ul li:nth-child(-n+5) {
 				display: inline-block;
 				font-size: 0.7em;
 			}
