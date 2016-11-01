@@ -2875,7 +2875,7 @@
 			margin: 0;
 		}
 
-			#nav ul li {
+			#nav ul li:nth-child(-n+5) {
 				display: inline-block;
 				font-size: 0.7em;
 			}
@@ -2892,7 +2892,7 @@
 /* Intro */
 
 	#intro {
-		background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/overlay.png"), url("../../images/intro.jpg");
+		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/overlay.png"), url("../../images/intro.jpg");
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top center;
