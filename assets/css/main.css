@@ -3446,7 +3446,7 @@
 				line-height: 2.5em;
 			}
 
-				#nav ul li:not(:nth-child(n+5)) {
+				#nav ul li:not(:nth-child(5)) {
 					font-size: .5em;
 					display: none;
 				}
