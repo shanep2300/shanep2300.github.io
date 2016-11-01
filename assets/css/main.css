@@ -2892,11 +2892,11 @@
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
-		background-size: 256px 256px, cover;
+		background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/overlay.png"), url("../../images/intro.jpg");
+		background-size: cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
+		background-position: top center;
+		background-repeat: no-repeat;
 	}
 
 /* One */
@@ -2905,7 +2905,7 @@
 		background: url("images/overlay.png"), url("../../images/one.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background-position: top center;
 	}
 
 /* Two */
@@ -2914,7 +2914,7 @@
 		background: url("images/overlay.png"), url("../../images/two.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background-position: center center;
 	}
 
 /* Pictures */
@@ -3040,7 +3040,8 @@
 		-ms-box-sizing: content-box;
 		box-sizing: content-box;
 		background: #fff;
-		padding-bottom: 3em;
+		padding:1px;
+		border:5px solid #fff;
 		box-shadow: 0 0.1em 0.15em 0 rgba(0, 0, 0, 0.15);
 	}
 
@@ -3446,7 +3447,7 @@
 				line-height: 2.5em;
 			}
 
-				#nav ul li:not(:nth-child(n+5)) {
+				#nav ul li:not(:nth-child(5)) {
 					font-size: .5em;
 					display: none;
 				}
