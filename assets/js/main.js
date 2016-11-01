@@ -65,7 +65,7 @@
 					overlayColor: '#1f2328',
 					overlayOpacity: 0.65,
 					usePopupDefaultStyling: false,
-					usePopupCaption: true,
+					usePopupCaption: false,
 					popupLoaderText: '',
 					windowMargin: (skel.breakpoint('mobile').active ? 5 : 50),
 					usePopupNav: true
@@ -156,8 +156,8 @@
 					// Contact.
 						$('#contact')
 							.scrollex({
-								top:		'50%',
-								delay:		50,
+								top:		'20%',
+								delay:		25,
 								initialize:	function() { $(this).addClass('inactive'); },
 								terminate:	function() { $(this).removeClass('inactive'); },
 								enter:		function() { $(this).removeClass('inactive'); },

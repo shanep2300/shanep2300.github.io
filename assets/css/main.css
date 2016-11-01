@@ -2297,7 +2297,7 @@
 			.main.style1 h2 {
 				font-size: 4.25em;
 				line-height: 1em;
-				letter-spacing: -4px;
+				letter-spacing: -4px;				
 			}
 
 			.main.style1:before {
@@ -2391,6 +2391,10 @@
 			.main.style3.secondary {
 				background: #f5f6f7;
 			}
+			
+				.main.style3 a {
+					color: inherit;
+				}
 
 /* Dark */
 
