@@ -156,7 +156,7 @@
 					// Contact.
 						$('#contact')
 							.scrollex({
-								top:		'20%',
+								top:		'1%',
 								delay:		0,
 								initialize:	function() { $(this).addClass('inactive'); },
 								terminate:	function() { $(this).removeClass('inactive'); },
